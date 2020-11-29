@@ -1,0 +1,26 @@
+@import "../dist/index.scss";
+
+.container {
+  background: #f68;
+  width: 900px;
+  overflow: hidden;
+  margin: 100px auto 0;
+
+  xmp {
+    color: #fff;
+    background: #333;
+    border-left: 4px solid #ccc;
+    padding-left: 14px;
+    margin:0 auto 10px;
+  }
+
+  .is-list {
+    display: flex;
+    justify-content: space-between;
+
+    > .item {
+      width: 30%;
+      padding-bottom: 40%;
+    }
+  }
+}

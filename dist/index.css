@@ -1,0 +1,21 @@
+/*!
+ * name: @jswork/wsui-ratio-image
+ * description: Image with special ratio for webkit sass.
+ * homepage: https://github.com/afeiship/wsui-ratio-image
+ * version: 1.0.0
+ * date: 2020-11-29 15:39:33
+ * license: MIT
+ */
+/*wsui-ratio-image Start*/
+.wsui-ratio-image {
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+  .wsui-ratio-image .is-ratio {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute; }
+
+/*wsui-ratio-image End*/
